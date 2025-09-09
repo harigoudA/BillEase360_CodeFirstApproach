@@ -1,0 +1,6 @@
+@BillEase360_CodeFirstApproach_HostAddress = http://localhost:5007
+
+GET {{BillEase360_CodeFirstApproach_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
