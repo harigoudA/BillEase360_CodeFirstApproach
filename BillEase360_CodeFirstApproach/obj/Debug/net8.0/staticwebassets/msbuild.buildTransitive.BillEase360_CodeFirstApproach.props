@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BillEase360_CodeFirstApproach.props" />
+</Project>
