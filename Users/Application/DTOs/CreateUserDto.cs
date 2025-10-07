@@ -1,4 +1,6 @@
-﻿namespace BillEase360_CodeFirstApproach.Users.Application.DTOs
+﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
+
+namespace BillEase360_CodeFirstApproach.Users.Application.DTOs
 {
     public class CreateUserDto
     {
@@ -8,5 +10,7 @@
         public string? PhoneNumber { get; set; }
         public string FirstName { get; set; } = "";
         public string LastName { get; set; } = "";
+
+        
     }
 }
